@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Invoice PDF</title>
+
+<link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel="stylesheet" href="css/main.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<br/>
+<br/>
+<div class="container">
+  <div class="row  iheader top-part">
+    <div class="col-md-6">
+      <h1>INVOICE</h1>
+  
+    </div>
+    <div class="col-md-3 ">
+    <address>
+  <strong>Synchronisys Inc.</strong><br>
+  www.synchronisys.com<br>
+  email@synchronisys.com<br>
+      (703)-870-3955<br>
+</address>
+    </div>
+    <div class="col-md-3">
+       <address>
+  <strong>Remit Payments to</strong><br>
+  45240 Business ct, Suite 150<br>
+  Sterling, VA 20166<br>
+</address>
+    </div>
+    
+    
+  </div>
+  <div class="row info-section ">
+      <div class="col-md-4 text-center">
+        <small class="title-text">Billed To</small>
+            <div>
+  <strong>KForce Inc</strong><br>
+  123 Main st<br>
+  Falls Church, VA 20166<br>
+</div>
+      </div>
+       <div class="col-md-4 text-center">
+     <small class="title-text">Invoice Number</small><br/>
+       <strong>123</strong>
+         <br/>
+          <small class="title-text">Invoice Date</small><br/>
+       <strong>January 12, 2017</strong>
+    </div>
+       <div class="col-md-4 total">
+    <small class="title-text">Invoice Total</small><br/>
+         <h1 class="total-amt">$4534.00</h1>
+         <small class="title-text">Due on 12/1/2017</small>
+        
+    </div>
+    </div>
+
+ 
+  <div class="middle-part">
+  <hr class="line">
+    <div class="row">
+       <div class="col-md-5 color-timeper "><strong>Description</strong></div>
+       <div class="col-md-1 text-center color-timeper"><strong>Qty</strong></div>
+       <div class="col-md-2 text-center color-timeper"><strong>Rate</strong></div>
+      <div class="col-md-2 text-center color-timeper"><strong>Amount</strong></div>
+       <div class="col-md-2 text-center color-timeper"><strong>Total</strong></div>
+    </div>
+  <div class="data-row-items">
+     <div class="row data-row">
+       <div class="col-md-5 "><strong>Item Name</strong><br/>
+         <small>Item Description goes here</small></div>
+       <div class="col-md-1 text-center">40</div>
+       <div class="col-md-2 text-center">$45.23</div>
+      <div class="col-md-2 text-center"></div>
+       <div class="col-md-2 text-center">$934.20</div>
+    </div>
+     <div class="row data-row">
+       <div class="col-md-5 "><strong>Item Name</strong><br/>
+         <small>Item Description goes here</small></div>
+       <div class="col-md-1 text-center">40</div>
+       <div class="col-md-2 text-center">$45.23</div>
+      <div class="col-md-2 text-center"></div>
+       <div class="col-md-2 text-center">$934.20</div>
+    </div>
+     <div class="row data-row">
+       <div class="col-md-5 "><strong>Item Name</strong><br/>
+         <small>Item Description goes here</small></div>
+       <div class="col-md-1 text-center"></div>
+       <div class="col-md-2 text-center"></div>
+      <div class="col-md-2 text-center">$2000.00</div>
+       <div class="col-md-2 text-center">$2000.00</div>
+    </div>
+    </div>
+  </div>
+  <div class="bottom-part">
+    <div class="row">
+      <div class="col-md-8"></div>
+      <div class="col-md-2 text-center color-timeper"><strong>Subtotal</strong></div>
+      <div class="col-md-2">$949.24</div>
+    </div>
+    <!--If there is no tax or discount don't show-->
+     <div class="row">
+      <div class="col-md-8 text-center"> <div class="col-md-6" style="position:relative"> 
+      <div id="watermark">PAID</div>
+  </div></div>
+      <div class="col-md-2 text-center color-timeper"><strong>Tax</strong></div>
+      <div class="col-md-2">$94.29</div>
+    </div>
+     <div class="row">
+      <div class="col-md-8"></div>
+      <div class="col-md-2 text-center color-timeper"><strong>Discount</strong></div>
+      <div class="col-md-2">$100.00</div>
+    </div>
+     <div class="row">
+      <div class="col-md-8"></div>
+      <div class="col-md-2 text-center color-timeper"><strong>Paid</strong></div>
+      <div class="col-md-2">$100.12</div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-8"></div>
+      <div class="col-md-2 text-center color-timeper"><h3>BALANCE</h3></div>
+      <div class="col-md-2"><h2>$1005.12</h2></div>
+    </div>
+  </div>
+   <div class="row footer-section">
+     <div class="col-md-6"><strong>Notes:</strong><br/>
+    
+     Please make sure to send us the mail by USPS.
+      </div>
+
+   
+
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js'></script>
+</body>
+</html>
